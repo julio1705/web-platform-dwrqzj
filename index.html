@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <section id="conteudo">
+      <input id="tela"/>
+      <div id="botoes">
+        <button class="tipo03" id="ac" onclick="cleanAll()">AC</button>
+        <button class="tipo03" id="c" onclick="clean()">C</button>
+        <button class="tipo02" id="por" onclick="insert('%')">%</button>
+        <button class="tipo02" id="divi" onclick="insert('/')">/</button>
+        <button class="tipo01" id="sete" onclick="insert('7')">7</button>
+        <button class="tipo01" id="oito" onclick="insert('8')">8</button>
+        <button class="tipo01" id="nove" onclick="insert('9')">9</button>
+        <button class="tipo02" id="mul" onclick="insert('*')">x</button>
+        <button class="tipo01" id="quatro" onclick="insert('4')">4</button>
+        <button class="tipo01" id="cinco" onclick="insert('5')">5</button>
+        <button class="tipo01" id="seis" onclick="insert('6')">6</button>
+        <button class="tipo02" id="sub" onclick="insert('-')">-</button>
+        <button class="tipo01" id="um" onclick="insert('1')">1</button>
+        <button class="tipo01" id="dois" onclick="insert('2')">2</button>
+        <button class="tipo01" id="tres" onclick="insert('3')">3</button>
+        <button class="tipo02" id="adi" onclick="insert('+')">+</button>
+        <button class="tipo01" id="zero" onclick="insert('0')">0</button>
+        <button class="tipo01" id="ponto" onclick="insert('.')">.</button>
+        <button class="tipo02" id="igual" onclick="igual()">=</button>
+      </section>
+    </div>
+  <script src="script.js"></script>
+  </body>
+</html>
